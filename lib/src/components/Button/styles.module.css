@@ -26,3 +26,23 @@
   color: #94bbe9;
   border: 1px solid #94bbe9;
 }
+
+.danger {
+  background: #f40435;
+}
+
+.danger:hover {
+  background: #ffffff;
+  color: #f40435;
+  border: 1px solid #f40435;
+}
+
+.primary {
+  background: #1e90ff;
+}
+
+.primary:hover {
+  background: #ffffff;
+  color: #1e90ff;
+  border: 1px solid #1e90ff;
+}
