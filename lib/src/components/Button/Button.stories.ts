@@ -14,3 +14,10 @@ export const Default = {
     children: "cool",
   },
 };
+
+export const Primary = {
+    args: {
+      children: "Primary",
+    },
+  };
+  
