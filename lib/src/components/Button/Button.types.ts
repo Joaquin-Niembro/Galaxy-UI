@@ -1,4 +1,5 @@
-export interface ButtonProps {
+import React from "react";
+export interface ButtonProps extends React.HTMLProps<HTMLButtonElement> {
   children: string;
   isLoading?: boolean;
   type?: "default" | "primary" | "danger";
