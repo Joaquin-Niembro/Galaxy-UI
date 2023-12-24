@@ -3,7 +3,7 @@ import { StoryVariant } from "./Button.types";
 
 export default {
   component: Button,
-  title: "Custom Button",
+  title: "Galaxy UI Button",
   tags: ["autodocs"],
   parameters: {
     layout: "centered",
