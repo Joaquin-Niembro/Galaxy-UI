@@ -1,5 +1,5 @@
-import styles from "./styles.module.css";
 import { ButtonProps } from "./Button.types";
+import "./button.scss";
 
 function LoadingSpinner() {
   return <div>Loading...</div>;
@@ -11,12 +11,9 @@ function Button({
   type = "default",
   ...rest
 }: ButtonProps) {
+  const style = type === "default" ? "button" : `button ${type}`;
   return (
-    <button
-      className={`${styles.button} ${styles[type]}`}
-      {...rest}
-      disabled={isLoading}
-    >
+    <button className={style} {...rest} disabled={isLoading}>
       {isLoading ? <LoadingSpinner /> : children}
     </button>
   );
